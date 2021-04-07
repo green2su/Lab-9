@@ -63,8 +63,8 @@ class Main
         name = reader.readLine();
         age = reader.readLine();
         color = reader.readLine();
-
-        System.out.println(name + "\t" + age + "\t" + color);
+        System.out.printf("%-10s %-10s %-10s %n", name, age, color);
+        //System.out.println(name + "\t" + age + "\t" + color);
       }
       reader.close();
     }
